@@ -2,4 +2,16 @@
   height: 100vh;
   width: 100vw;
   background-color: #161618;
+  overflow: hidden;
+}
+.main .component-container {
+  height: calc(100vh - 90px);
+  width: calc(100vw - 100px);
+  position: absolute;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-y: auto;
 }/*# sourceMappingURL=main.css.map */

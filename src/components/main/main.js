@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutMe from '../aboutMe/aboutMe';
 import LeftDecoration from './leftDecoration/leftDecoration';
 import './main.css'
 import Navbar from './navbar/navbar';
@@ -17,6 +18,9 @@ function Main() {
             <SocialIcons />
 
             {/* Component */}
+            <div className='component-container'>
+                <AboutMe />
+            </div>
 
             {/* Right Decoration Line */}
             <RightDecoration />

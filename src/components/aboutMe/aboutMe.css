@@ -1,0 +1,45 @@
+.about-me-container {
+  width: 100%;
+  height: 100%;
+}
+.about-me-container .page-heading {
+  color: #FFD607;
+  font-weight: 600;
+  font-size: 36px;
+  padding: 30px 10px 10px 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.about-me-container .img-text-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.about-me-container .img-text-container .text-and-button-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-me-container .img-text-container .text-and-button-container .text {
+  text-align: start;
+  padding-left: 45px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.about-me-container .img-text-container .text-and-button-container .education-button {
+  margin-top: 40px;
+}
+.about-me-container .img-text-container .img-circle-container {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-me-container .img-text-container .img-circle-container .img-container {
+  height: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  background-color: grey;
+}/*# sourceMappingURL=aboutMe.css.map */
