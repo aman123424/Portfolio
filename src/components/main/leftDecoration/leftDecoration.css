@@ -1,0 +1,21 @@
+.left-decoration-container {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-decoration-container .line-element {
+  height: 50vh;
+  width: 1.5px;
+  background-color: #FED70D;
+  border: 1px #FED70D solid;
+}
+.left-decoration-container .circle-element {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #FED70D;
+}/*# sourceMappingURL=leftDecoration.css.map */
