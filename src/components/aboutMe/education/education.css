@@ -1,0 +1,6 @@
+.education-container {
+  width: 100%;
+}
+.education-container .education-element-container {
+  height: calc(100vh - 180px);
+}/*# sourceMappingURL=education.css.map */

@@ -1,5 +1,9 @@
 import React from 'react';
 import AboutMe from '../aboutMe/aboutMe';
+import Education from '../aboutMe/education/education';
+import ContactUs from '../contactUs/contactUs';
+import PORs from '../experience/PORs/PORs';
+import Home from '../home/home';
 import LeftDecoration from './leftDecoration/leftDecoration';
 import './main.css'
 import Navbar from './navbar/navbar';
@@ -19,7 +23,11 @@ function Main() {
 
             {/* Component */}
             <div className='component-container'>
+                <Home />
                 <AboutMe />
+                <Education />
+                <PORs/>
+                <ContactUs/>
             </div>
 
             {/* Right Decoration Line */}

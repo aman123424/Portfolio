@@ -6,7 +6,7 @@
 }
 .main .component-container {
   height: calc(100vh - 90px);
-  width: calc(100vw - 100px);
+  width: calc(100vw - 100px - 115px);
   position: absolute;
   left: 50px;
   display: flex;
@@ -14,4 +14,17 @@
   align-items: flex-start;
   justify-content: flex-start;
   overflow-y: auto;
+  padding-left: 75px;
+}
+.main .component-container::-webkit-scrollbar {
+  width: 2px;
+}
+.main .component-container::-webkit-scrollbar-track {
+  border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main .component-container::-webkit-scrollbar-thumb {
+  background-color: #FED70D;
+  border-radius: 20px;
+  border: 3px solid #FED70D;
 }/*# sourceMappingURL=main.css.map */

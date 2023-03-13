@@ -1,0 +1,6 @@
+.por-container {
+  width: 100%;
+}
+.por-container .por-element-container {
+  height: calc(100vh - 180px);
+}/*# sourceMappingURL=PORs.css.map */

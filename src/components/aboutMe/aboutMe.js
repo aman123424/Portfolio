@@ -1,12 +1,14 @@
 import React from 'react';
 import Button from '../../uiElements/Button/Button';
+import profilePic from '../../assets/profilePic.jpeg';
 import './aboutMe.css'
+import PageHeading from '../../uiElements/PageHeading/PageHeading';
 
 function AboutMe() {
     return (
         <div className='about-me-container'>
             
-            <div className='page-heading'>About Me</div>
+            <PageHeading heading={"About Me"}/>
 
             <div className='img-text-container'>
                 <div className='text-and-button-container'>
@@ -30,7 +32,7 @@ function AboutMe() {
 
                 <div className='img-circle-container'>
                     <div className='img-container'>
-                        <img></img>
+                        <img src={profilePic} className="img"/>
                     </div>
                 </div>
             </div>
